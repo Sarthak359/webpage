@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+html{
+    font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+body{
+	margin: 0;
+}
+#home{
+	width: 100%;
+	background-image: url("https://i.ibb.co/kXpJ0Nc/BG.jpgg");
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+	z-index: 1;
+	margin: 0;
+	height: 50vw;
+}
+
+#home::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgb(16, 12, 12);
+	opacity: 0.7;
+	z-index: -1;
+}
+
+#home .header-container{
+	position: fixed;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	left: 0;
+	top: -0.8vw;
+	width: 100%;
+	height: auto;
+}
+#home .nav-bar{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+    font-size: 1.5rem;
+}
+#home .nav-bar .bi-bi-instagram:hover{
+	color: red;
+}
+
+
+#home .nav-bar .span{
+	color: red;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+li {
+    display: inline;
+	padding-left: 20px;
+	font-weight: bold;
+	font-size: large;
+}
+#header .nav-list ul {
+	list-style: none;
+	position: relative;
+	top: 0;
+	display: flex;
+	z-index: 1;
+}
+#header .nav-list ul li {
+	display: inline-block;
+}
+#hero .p{
+	font-size: 10rem;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#hero-button{
+	display: inline-block;
+    color: white;
+    background-color: transparent;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding: 10px 30px;
+    border-width: 2px;
+    border-color: crimson;
+	transition: 0.3s ease;
+}
+
+#hero-button:hover {
+	color: white;
+	background-color: crimson;
+}
+
+#about{
+	height: 40vw;
+	margin-top: 10vw;
+	margin-left: 10vw;
+}
+
+#about .about-left{
+	background-image: url("https://jimdo-storage.freetls.fastly.net/image/400324693/c868c596-a22e-40f5-9623-57d6cfef126f.jpg?format=pjpg&quality=80,90&auto=webp&disable=upscale&width=960&height=960&trim=0,0,0,0");
+	background-size: cover;
+	margin: 0;	
+	height: 25vw;
+	background-repeat: no-repeat;
+}
+#about .about-right{
+	margin-top: 5vw;
+	margin-bottom: 0;
+	margin-right: 5vw;
+	margin-left: 0vw;
+}
+#table{
+	height: 50vw;
+	background-color: #db3d0d65;
+	border-top: 2px solid rgba(128, 43, 43, 0.637);
+}
+#table .table-e{
+	background-color: white;
+	text-align: center;
+	border-spacing: 0;
+	border-radius: 12px 0px 12px 0px;
+	box-shadow: 0 2px 12px rgba(34, 30, 30, 0.471);
+}
+#table .table-e th{
+	background-color: rgba(128, 43, 43, 0.637);
+	padding: 10px 25px;
+}
+#table .table-e td{
+	padding: 10px 25px;
+}
+#table-h .table-hobbs{
+	height: 55vw;
+	justify-content: space-between;
+	background-color: #DEB992;
+	border-top: 2px solid #1BA098;
+}
+#table-h .table-hobbs .sk{
+	margin-top: 20vw;
+	width: 20vw;
+	height: 25vw;
+	background-color: #1BA098;
+	display: inline-block;
+	margin-left: 10vw;
+	box-shadow: -5px 6px 20px 0px #292b2caf;
+	border-radius: 15px;
+	position: relative;
+}
+#table-h .table-hobbs .sk .content{
+	display: flex;
+	justify-content: center;
+}
+#table-h .table-hobbs .sk .content h1{
+	font-weight: bold;
+	font-size: 1.7vw;
+	color: rgb(0, 0, 0);
+}
+#table-h .table-hobbs .sk table td{
+	padding-left: 40px;
+	padding-top: 30px;
+	font-size: 1.3vw;
+	line-height: 1.5;
+}
+
+#contact .table-hobbs{
+	height: 40vw;
+	justify-content: space-between;
+	background-color: #ffffff;
+	border-top: 2px solid #1BA098;
+}
+#contact .table-hobbs .sk{
+	margin-top: 5vw;
+	width: 20vw;
+	height: 25vw;
+	background-color: #ebf4f3;
+	display: inline-block;
+	margin-left: 10vw;
+	box-shadow: -5px 6px 20px 0px #292b2caf;
+	border-radius: 15px;
+	position: relative;
+}
+#contact .table-hobbs .sk .content{
+	display: flex;
+	justify-content: center;
+}
+#contact .table-hobbs .sk .content img{
+	margin-top: 20px;
+}
+#contact .table-hobbs .sk .content h1{
+	font-weight: bold;
+	font-size: 1.7vw;
+	color: rgb(0, 0, 0);
+}
+#contact .table-hobbs .sk table td{
+	padding-left: 50px;
+	padding-top: 30px;
+	font-size: 1.3vw;
+	line-height: 1.5;
+}
+#blank{
+	height: 15vw;
+}
+#video{
+	height: 780px;
+	background-color: rgba(104, 135, 227, 0.692);
+}
