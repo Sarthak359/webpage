@@ -1,0 +1,37 @@
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+body {
+	background: #fffefe;
+	font-size:22px;
+	line-height: 32px;
+	color: #030303;
+	word-wrap:break-word !important;
+	font-family: 'Open Sans', sans-serif;
+	}
+a {
+	color: rgb(0, 0, 0);
+}
+
+nav ul {
+	padding: 0;
+    margin: 0;
+	list-style: none;
+	position: absolute;
+	display: flex;
+	}
+	
+nav ul li {
+	background: #ffffff;
+	}
+
+nav a {
+	display:block;
+	padding:0 10px;	
+	color:rgb(4, 4, 4);
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+}
